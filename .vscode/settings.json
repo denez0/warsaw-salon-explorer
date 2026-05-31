@@ -1,0 +1,12 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^powershell -Command 'Set-Location \"C:\\\\Users\\\\xerus\\\\Desktop\\\\beauty_salons\"; python -c \"from pathlib import Path; print\\(repr\\(Path\\(\\\\\"scripts/clean-data\\.ts\\\\\"\\)\\.read_text\\(encoding=\\\\\"utf-8\\\\\"\\)\\)\\)\"'$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cmd /C \"cd /d c:\\\\Users\\\\xerus\\\\Desktop\\\\beauty_salons && python -c \"from pathlib import Path; print\\(repr\\(Path\\('scripts/clean-data\\.ts'\\)\\.read_text\\(encoding='utf-8'\\)\\)\\)\"\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

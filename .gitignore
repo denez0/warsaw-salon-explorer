@@ -1,0 +1,21 @@
+﻿# Dependencies
+node_modules/
+
+# Build output
+.next/
+
+# Database files (contain real data, can be regenerated from scripts)
+data/beauty_salons.db
+data/beauty_salons.db-shm
+data/beauty_salons.db-wal
+
+# Environment variables
+.env
+.env.local
+
+# TypeScript build info
+tsconfig.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
