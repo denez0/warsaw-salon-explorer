@@ -56,7 +56,6 @@ async function main() {
   const files = [
     "salons-complete.json",
     "maps-salons.json",
-    "booksy-salons.json",
   ];
   for (const f of files) {
     try {

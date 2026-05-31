@@ -79,12 +79,6 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000). The home page reads from SQLite on the server.
 
-## Screenshots
-
-- Listing page: browse salons with district filtering, ratings, and price tiers at a glance.
-- Detail page: view full address, phone, services, website, and edit/save salon details.
-- No screenshot image assets are currently included in the repository; add `screenshots/` files and update this section as needed.
-
 ## Project layout
 
 - `app/` — App Router pages
@@ -94,29 +88,26 @@ Open [http://localhost:3000](http://localhost:3000). The home page reads from SQ
 
 `better-sqlite3` is only imported from server code (`lib/db/client.ts` uses `server-only`) or from `scripts/` for seeding.
 
-## Optional Booksy scraper
+## Google Maps scraper
 
-A legacy Booksy scraper is included, but the dataset powering the app is primarily derived from Google Maps and cleaned JSON source files.
-
-Run it only if you want to generate or inspect additional Booksy-derived data:
+Fetch Warsaw salon/barber listings from [Google Maps](https://www.google.com/maps) into `data/maps-salons.json` (UTF-8 JSON array). Uses Puppeteer with stealth via `puppeteer-extra`.
 
 ```bash
-npm run scrape:booksy
+npm run scrape:maps
 ```
 
 Optional environment variables:
 
-| Variable               | Default | Purpose                                     |
-| ---------------------- | ------- | ------------------------------------------- |
-| `SCRAPE_MAX_QUERIES`   | all     | Limit district search queries (for testing) |
-| `SCRAPE_SCROLL_ROUNDS` | `4`     | Scroll depth on each search results page    |
-| `SCRAPE_MAX_PROFILES`  | `80`    | Max business profile pages for rating/phone |
+| Variable                                  | Default    | Purpose                                                   |
+| ----------------------------------------- | ---------- | --------------------------------------------------------- |
+| `SCRAPE_MAX_QUERIES`                      | all        | Limit district search queries (for testing)               |
+| `SCRAPE_SCROLL_MIN` / `SCRAPE_SCROLL_MAX` | `5` / `10` | Random scroll rounds on the results feed                  |
+| `SCRAPE_MAX_DETAIL_CLICKS`                | `40`       | Max place detail pages for full address / phone / website |
+| `SCRAPE_HEADLESS`                         | headless   | Set to `false` to show the browser                        |
 
-Flags: `--dry-run` (no file write), `--listings-only` (skip profile enrichment).
+Flags: `--dry-run` (no file write), `--headed`, `--listings-only` (skip detail-panel enrichment).
 
-Output fields per salon: `name`, `address`, `district` (parsed from address), `phone`, `rating`, `review_count`, `services`, `price_range`, `source_url`, `scraped_at`. Missing public fields are `null`. Duplicates are merged by name + address.
-
-## Google Maps scraper
+Output fields: `name`, `address`, `district`, `rating`, `review_count`, `phone`, `website`, `source_url`, `scraped_at`. Searches use Polish district names in the query URL (`fryzjer`, `salon urody`, `barber` × Warsaw districts). Saves incrementally after each district. `data/maps-salons.json` is gitignored.
 
 Fetch Warsaw salon/barber listings from [Google Maps](https://www.google.com/maps) into `data/maps-salons.json` (UTF-8 JSON array). Uses Puppeteer with the stealth plugin (Chromium from `puppeteer`).
 
@@ -147,7 +138,6 @@ Output fields: `name`, `address`, `district`, `rating`, `review_count`, `phone`,
 | `npm run db:seed`       | Insert 110 sample salons                        |
 | `npm run db:setup`      | migrate + seed                                  |
 | `npm run data:clean`    | Clean raw JSON data files and normalize records |
-| `npm run scrape:booksy` | Scrape Booksy → JSON                            |
 | `npm run scrape:maps`   | Scrape Google Maps → JSON                       |
 
 ## Security

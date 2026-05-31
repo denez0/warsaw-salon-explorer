@@ -11,7 +11,6 @@
     "db:seed": "tsx scripts/seed.ts",
     "db:setup": "npm run db:migrate && npm run db:seed",
     "data:clean": "tsx scripts/clean-data.ts",
-    "scrape:booksy": "tsx scripts/scrape-booksy.ts",
     "scrape:maps": "tsx scripts/scrape-google-maps.ts",
     "test:districts": "tsx scripts/scrape-utils.ts --test-districts"
   },
