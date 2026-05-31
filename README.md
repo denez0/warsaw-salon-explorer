@@ -79,6 +79,12 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000). The home page reads from SQLite on the server.
 
+## Screenshots
+
+- Listing page: browse salons with district filtering, ratings, and price tiers at a glance.
+- Detail page: view full address, phone, services, website, and edit/save salon details.
+- No screenshot image assets are currently included in the repository; add `screenshots/` files and update this section as needed.
+
 ## Project layout
 
 - `app/` — App Router pages
@@ -88,9 +94,11 @@ Open [http://localhost:3000](http://localhost:3000). The home page reads from SQ
 
 `better-sqlite3` is only imported from server code (`lib/db/client.ts` uses `server-only`) or from `scripts/` for seeding.
 
-## Booksy scraper
+## Optional Booksy scraper
 
-Fetch public Warsaw salon listings from [Booksy](https://booksy.com/pl-pl/) into `data/booksy-salons.json` (UTF-8 JSON array). Requires Chromium via Playwright (`npx playwright install chromium` after `npm install`).
+A legacy Booksy scraper is included, but the dataset powering the app is primarily derived from Google Maps and cleaned JSON source files.
+
+Run it only if you want to generate or inspect additional Booksy-derived data:
 
 ```bash
 npm run scrape:booksy
