@@ -3,10 +3,10 @@ export type SalonRow = {
   name: string;
   address: string;
   district: string;
-  phone: string;
+  phone: string | null;
   website: string | null;
-  services: string;
-  price_range: string;
+  services: string | null;
+  price_range: string | null;
   rating: number;
   review_count: number;
   latitude: number;

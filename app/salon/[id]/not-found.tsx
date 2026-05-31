@@ -8,23 +8,23 @@ export default function SalonNotFoundPage() {
         href="/salons"
         className="inline-flex text-sm font-medium text-emerald-700 hover:text-emerald-800"
       >
-        ← Wróć do listy
+        ← Back to listing
       </Link>
       <div className="mt-6 rounded-xl border border-zinc-200 bg-white px-6 py-12 text-center shadow-sm">
         <p className="text-6xl font-light text-zinc-300" aria-hidden>
           404
         </p>
         <h1 className="mt-2 text-xl font-semibold text-zinc-900">
-          Salon nie został znaleziony
+          Salon not found
         </h1>
         <p className="mt-2 text-sm text-zinc-500">
-          Ten salon mógł zostać usunięty lub podany adres jest nieprawidłowy.
+          This salon may have been removed or the address is invalid.
         </p>
         <Link
           href="/salons"
           className="mt-6 inline-flex rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-700"
         >
-          Wróć do listy salonów
+          Back to salon list
         </Link>
       </div>
     </div>

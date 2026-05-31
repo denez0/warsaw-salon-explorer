@@ -1,0 +1,902 @@
+[
+  {
+    "name": "365 Warsaw Studio",
+    "rating": 4.7,
+    "review_count": 59,
+    "address": "al. Jana Pawła II 45A/lokal 43A(1 piętro, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/365+Warsaw+Studio/data=!4m7!3m6!1s0x471ecd88ae91bf37:0x87d385c9454bf597!8m2!3d52.2440589!4d20.9911297!16s%2Fg%2F11t9r2yj5v!19sChIJN7-RrojNHkcRl_VLRcmF04c?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "8th Heaven Beauty",
+    "rating": 5,
+    "review_count": 40,
+    "address": "Szpitalna 5/4e, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/8th+Heaven+Beauty/data=!4m7!3m6!1s0x471ecdb6c0d086c5:0x2dbbf0d01c9883f7!8m2!3d52.2330747!4d21.0144942!16s%2Fg%2F11y5vchzpw!19sChIJxYbQwLbNHkcR94OYHNDwuy0?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Agnieszka Białecka KOSMETYKA PIELĘGNACYJNO ZABIEGOWA",
+    "rating": 5,
+    "review_count": 20,
+    "address": "Gen. W. Andersa 25/m. 421, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Agnieszka+Bia%C5%82ecka+KOSMETYKA+PIEL%C4%98GNACYJNO+ZABIEGOWA/data=!4m7!3m6!1s0x471ecc7756453e9d:0xfbcfdd2df3b0e726!8m2!3d52.2513378!4d20.9976965!16s%2Fg%2F11f5m2btk3!19sChIJnT5FVnfMHkcRJuew8y3dz_s?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Amazing Beauty",
+    "rating": 5,
+    "review_count": 30,
+    "address": "Piwna 19/lok.11, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Amazing+Beauty/data=!4m7!3m6!1s0x471ecd498b0d5097:0x9319a0e10f895820!8m2!3d52.2485761!4d21.0124673!16s%2Fg%2F11x71sn73v!19sChIJl1ANi0nNHkcRIFiJD-GgGZM?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "APOGEUM Studio Urody",
+    "rating": 4.9,
+    "review_count": 79,
+    "address": "Chmielna 5, Warszawa",
+    "district": "Śródmieście",
+    "category": "Studio urody",
+    "source_url": "https://www.google.com/maps/place/APOGEUM+Studio+Urody/data=!4m7!3m6!1s0x47193293bb11723f:0xd46710ea1355242a!8m2!3d52.2327884!4d21.0187313!16s%2Fg%2F1w345c49!19sChIJP3IRu5MyGUcRKiRVE-oQZ9Q?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Atelier Sylwia Konarzewska",
+    "rating": 5,
+    "review_count": 19,
+    "address": "Wojciecha Górskiego 1/100, Warszawa",
+    "district": "Śródmieście",
+    "category": "Fryzjer",
+    "source_url": "https://www.google.com/maps/place/Atelier+Sylwia+Konarzewska/data=!4m7!3m6!1s0x471ecd8ec57f8b69:0xeec1c476e55b27b7!8m2!3d52.2339006!4d21.0173171!16s%2Fg%2F11x668_3d_!19sChIJaYt_xY7NHkcRtydb5XbEwe4?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Atelier Śródmieście",
+    "rating": 4.5,
+    "review_count": 190,
+    "address": "Nowogrodzka 42, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Atelier+%C5%9Ar%C3%B3dmie%C5%9Bcie/data=!4m7!3m6!1s0x471eccf2ed8b0de5:0xc6746b20622903e0!8m2!3d52.2284173!4d21.0098014!16s%2Fg%2F1tff6c8s!19sChIJ5Q2L7fLMHkcR4AMpYiBrdMY?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Baff Beauty Salon kosmetyczny i fryzjerski Warszawa Przedłużanie rzęs, Manicure, Strzyżenie damskie",
+    "rating": 4.3,
+    "review_count": 52,
+    "address": "Bonifraterska 10a, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Baff+Beauty+Salon+kosmetyczny+i+fryzjerski+Warszawa+Przed%C5%82u%C5%BCanie+rz%C4%99s,+Manicure,+Strzy%C5%BCenie+damskie/data=!4m7!3m6!1s0x471ecdcdf2287545:0xccfe9b7845641bef!8m2!3d52.2530383!4d21.0012741!16s%2Fg%2F11t4286khd!19sChIJRXUo8s3NHkcR7xtkRXib_sw?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Barbershop Margines",
+    "rating": 4.9,
+    "review_count": 299,
+    "address": "wejście bramą od, ul. Świętokrzyska 18, Jasna 22, Warszawa",
+    "district": "Śródmieście",
+    "category": "Barbershop",
+    "source_url": "https://www.google.com/maps/place/Barbershop+Margines/data=!4m7!3m6!1s0x471ecded6971d197:0x8cc48b053db5d1d1!8m2!3d52.236!4d21.0108985!16s%2Fg%2F11l3f7tjrj!19sChIJl9Fxae3NHkcR0dG1PQWLxIw?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Beautebar Solec 83",
+    "rating": 4.9,
+    "review_count": 83,
+    "address": "Solec 83, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Beautebar+Solec+83/data=!4m7!3m6!1s0x471ecd4b5414562b:0x819b281a34f12611!8m2!3d52.2347337!4d21.0328252!16s%2Fg%2F11h3l0vqh0!19sChIJK1YUVEvNHkcRESbxNBoom4E?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Beauty Address",
+    "rating": 5,
+    "review_count": 138,
+    "address": "Ul. Inflancka 4b/Budynek C, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Beauty+Address/data=!4m7!3m6!1s0x471ecb8468758807:0xed9aa7e05befc70c!8m2!3d52.2553338!4d20.9929707!16s%2Fg%2F11ghgcc9sk!19sChIJB4h1aITLHkcRDMfvW-Cnmu0?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Beauty Boss Śródmieście",
+    "rating": 4,
+    "review_count": 112,
+    "address": "Żelazna 67/24, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Beauty+Boss+%C5%9Ar%C3%B3dmie%C5%9Bcie/data=!4m7!3m6!1s0x471ecd722c745d01:0xa06cbb50aeb1d914!8m2!3d52.2354477!4d20.9899037!16s%2Fg%2F11j2s8kg5l!19sChIJAV10LHLNHkcRFNmxrlC7bKA?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Beauty Heyday",
+    "rating": 3.7,
+    "review_count": 66,
+    "address": "3,7-gwiazdkowy : 66, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Beauty+Heyday/data=!4m7!3m6!1s0x471ecdabb5b72e39:0x70fed660e4dc7965!8m2!3d52.2334569!4d21.0238201!16s%2Fg%2F11gh65z725!19sChIJOS63tavNHkcRZXnc5GDW_nA?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Beauty Salon",
+    "rating": 4.2,
+    "review_count": 40,
+    "address": "Krucza 46, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Beauty+Salon/data=!4m7!3m6!1s0x471ecd36fdcd67e7:0xbacfa8914f96c9dc!8m2!3d52.230256!4d21.0169108!16s%2Fg%2F11sqzyhc77!19sChIJ52fN_TbNHkcR3MmWT5Goz7o?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Beauty Studio Merci",
+    "rating": 4.8,
+    "review_count": 146,
+    "address": "Domaniewska 34A, Warszawa",
+    "district": "Mokotów",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Beauty+Studio+Merci/data=!4m7!3m6!1s0x471933e9fd53a64b:0x53c5340f1908f6c9!8m2!3d52.1836255!4d21.009403!16s%2Fg%2F11vb5ds9cw!19sChIJS6ZT_ekzGUcRyfYIGQ80xVM?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Bezpieczna Kosmetyka Salon Kosmetyczny",
+    "rating": 4.9,
+    "review_count": 282,
+    "address": "Zygmunta Krasińskiego 33B, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Bezpieczna+Kosmetyka+Salon+Kosmetyczny/data=!4m7!3m6!1s0x471ecc7e7414c075:0xa78d3140ac296ad5!8m2!3d52.2655142!4d20.974908!16s%2Fg%2F1hc2xcmbt!19sChIJdcAUdH7MHkcR1WoprEAxjac?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "BLICHARSKI BARBER SHOP",
+    "rating": 5,
+    "review_count": 260,
+    "address": "Chmielna 10, Warszawa",
+    "district": "Śródmieście",
+    "category": "Fryzjer",
+    "source_url": "https://www.google.com/maps/place/BLICHARSKI+BARBER+SHOP/data=!4m7!3m6!1s0x471ecdf6ef24c82f:0x7f636fc7bfd51d8d!8m2!3d52.2333616!4d21.0176753!16s%2Fg%2F11lg_0p0pn!19sChIJL8gk7_bNHkcRjR3Vv8dvY38?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Blossom Hair Śródmieście",
+    "rating": 5,
+    "review_count": 76,
+    "address": "Świętojerska 4/10, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/Blossom+Hair+%C5%9Ar%C3%B3dmie%C5%9Bcie+%7C+Salon+Fryzjerski+Warszawa/data=!4m7!3m6!1s0x459654b254ffe89d:0x91dd7c56c51f14de!8m2!3d52.2514378!4d21.0070702!16s%2Fg%2F11vqhwbn3c!19sChIJnej_VLJUlkUR3hQfxVZ83ZE?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "BM BEAUTY Studio kosmetyczne",
+    "rating": 5,
+    "review_count": 11,
+    "address": "Smolna 8, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/BM+BEAUTY+Studio+kosmetyczne/data=!4m7!3m6!1s0x471ecd1f7a2434a5:0x3ce4e0eb9b0f204c!8m2!3d52.2336805!4d21.0252689!16s%2Fg%2F11krck4v9j!19sChIJpTQkeh_NHkcRTCAPm-vg5Dw?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Bomón beauty salon manicure pedicure brwi rzęsy masaż massage makeup makijaż /",
+    "rating": 5,
+    "review_count": 190,
+    "address": "Mariana Zdziechowskiego 3, Warszawa",
+    "district": "Mokotów",
+    "category": "Salon urody",
+    "source_url": "https://www.google.com/maps/place/Bom%C3%B3n+beauty+salon+manicure+pedicure+brwi+rz%C4%99sy+masa%C5%BC+massage+makeup+makija%C5%BC+%2F+salon+urody/data=!4m7!3m6!1s0x471933aa271de439:0x7d1734280e94f3f6!8m2!3d52.1846153!4d21.0134773!16s%2Fg%2F11vzqs1lss!19sChIJOeQdJ6ozGUcR9vOUDig0F30?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Bonjour Beauté",
+    "rating": 4.7,
+    "review_count": 80,
+    "address": "wejście z tyłu budynku, II klatka, Świętokrzyska 30, kod 100, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Bonjour+Beaut%C3%A9+-+Salon+kosmetyczny+Warszawa+%C5%9Ar%C3%B3dmie%C5%9Bcie/data=!4m7!3m6!1s0x471ecdf08802a793:0x4e69eaeddbf943f2!8m2!3d52.2350038!4d21.0053564!16s%2Fg%2F11jsvzkntq!19sChIJk6cCiPDNHkcR8kP52-3qaU4?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Brodaty Zbir Barber VIP",
+    "rating": 5,
+    "review_count": 2,
+    "address": "5,0-gwiazdkowy : 2, Warszawa",
+    "district": "Śródmieście",
+    "category": "Fryzjer",
+    "source_url": "https://www.google.com/maps/place/Brodaty+Zbir+Barber+VIP/data=!4m7!3m6!1s0x471ec5e77ebf75d1:0x59345ae2933622c9!8m2!3d52.2329711!4d21.0242634!16s%2Fg%2F11l27n1dq3!19sChIJ0XW_fufFHkcRySI2k-JaNFk?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Bujnowska Klinika",
+    "rating": 5,
+    "review_count": 45,
+    "address": "12a Krakowska, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Bujnowska+Klinika+-+Kosmetologia+i+Medycyna+Estetyczna/data=!4m7!3m6!1s0x471eb96230956eb9:0xda0dd1f106730f4f!8m2!3d52.408042!4d20.914025!16s%2Fg%2F11fnylv93g!19sChIJuW6VMGK5HkcRTw9zBvHRDdo?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Charakter Ernest Kołodziej",
+    "rating": 4.9,
+    "review_count": 36,
+    "address": "Bracka 22, Warszawa",
+    "district": "Śródmieście",
+    "category": "Fryzjer",
+    "source_url": "https://www.google.com/maps/place/Charakter+Ernest+Ko%C5%82odziej/data=!4m7!3m6!1s0x471eccf46b16fd59:0x325118be9d8e9c64!8m2!3d52.2322689!4d21.0159619!16s%2Fg%2F1thmjrq1!19sChIJWf0Wa_TMHkcRZJyOnb4YUTI?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Chill Out Barber",
+    "rating": 4.8,
+    "review_count": 465,
+    "address": "Żurawia 24, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/Chill+Out+Barber+Warszawa/data=!4m7!3m6!1s0x471ecd8470dcbcaf:0x7eafff2aa6096d4d!8m2!3d52.2285248!4d21.0152603!16s%2Fg%2F11fkf35xln!19sChIJr7zccITNHkcRTW0Jpir_r34?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Cięty Fryzjer Arkadiusz Ośmiałowski",
+    "rating": 5,
+    "review_count": 337,
+    "address": "Plac Jana Henryka Dąbrowskiego 1, Warszawa",
+    "district": "Śródmieście",
+    "category": "Fryzjer",
+    "source_url": "https://www.google.com/maps/place/Ci%C4%99ty+Fryzjer+Arkadiusz+O%C5%9Bmia%C5%82owski/data=!4m7!3m6!1s0x471ecd432c084d19:0x123d76080e1f57e0!8m2!3d52.2365763!4d21.0098777!16s%2Fg%2F11kqqwrb8b!19sChIJGU0ILEPNHkcR4FcfDgh2PRI?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Crush Beauty Studio",
+    "rating": 4.7,
+    "review_count": 37,
+    "address": "Długa 8/lok 35, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Crush+Beauty+Studio/data=!4m7!3m6!1s0x471ecda4e48da7b9:0xa3d010dee0e9b58c!8m2!3d52.2503187!4d21.0079423!16s%2Fg%2F11v0pq8csv!19sChIJuaeN5KTNHkcRjLXp4N4Q0KM?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Dobre miejsce",
+    "rating": 5,
+    "review_count": 19,
+    "address": "Wojciecha Górskiego 5/m1, Warszawa",
+    "district": "Śródmieście",
+    "category": "Fryzjer",
+    "source_url": "https://www.google.com/maps/place/Dobre+miejsce/data=!4m7!3m6!1s0x471ecd56353bd9dd:0x882bdafd33c10d0!8m2!3d52.2337388!4d21.0162714!16s%2Fg%2F11fkf36dlp!19sChIJ3dk7NVbNHkcR0BA806-9ggg?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Dom Piękna",
+    "rating": 4.3,
+    "review_count": 24,
+    "address": "al. Niepodległości 118/lok.86, Warszawa",
+    "district": "Mokotów",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Dom+Pi%C4%99kna/data=!4m7!3m6!1s0x471eccd69aba24db:0xecb02e5031cf787f!8m2!3d52.2019139!4d21.011196!16s%2Fg%2F11bxb9ssjl!19sChIJ2yS6mtbMHkcRf3jPMVAusOw?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Dream Hair Salon (ul.Solec 28)",
+    "rating": 4.8,
+    "review_count": 119,
+    "address": "Solec 28, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/Dream+Hair+Salon+%28ul.Solec+28%29/data=!4m7!3m6!1s0x471ecd2a50e79439:0x9ae516c79997c308!8m2!3d52.2339786!4d21.0355187!16s%2Fg%2F11fv7rr1mx!19sChIJOZTnUCrNHkcRCMOXmccW5Zo?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Easybelle",
+    "rating": 4.9,
+    "review_count": 60,
+    "address": "Wejście do budynku od południowej strony, Zygmunta Słomińskiego 17/3, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Easybelle/data=!4m7!3m6!1s0x471ecdd391bbf813:0xb89c64a6f5fba11a!8m2!3d52.2557936!4d20.9870471!16s%2Fg%2F11ff0sgdk4!19sChIJE_i7kdPNHkcRGqH79aZknLg?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "ETERNA",
+    "rating": 4.7,
+    "review_count": 86,
+    "address": "24A Bukowińska, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon urody",
+    "source_url": "https://www.google.com/maps/place/ETERNA+Salon+Urody+%7C+W%C5%82osy,+Paznokcie,+PMU,+Przek%C5%82uwanie+uszu/data=!4m7!3m6!1s0x43d89c686e1a7059:0x7f89a8be0e72c293!8m2!3d52.182088!4d21.026276!16s%2Fg%2F11x600n633!19sChIJWXAabmic2EMRk8JyDr6oiX8?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Euforia",
+    "rating": 4.7,
+    "review_count": 193,
+    "address": "Dolna 11, Warszawa",
+    "district": "Mokotów",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Euforia/data=!4m7!3m6!1s0x471ecd6e852e240b:0x1054ec72b7b22d0b!8m2!3d52.2009026!4d21.0314696!16s%2Fg%2F11sbp2kftb!19sChIJCyQuhW7NHkcRCy2yt3LsVBA?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Express Fryzjer",
+    "rating": 4.7,
+    "review_count": 750,
+    "address": "Rondo Romana Dmowskiego Podziemia, Warszawa",
+    "district": "Śródmieście",
+    "category": "Fryzjer",
+    "source_url": "https://www.google.com/maps/place/Express+Fryzjer+-+Hair+Cut+Salon/data=!4m7!3m6!1s0x471ecd8e2d4cdb99:0xe56122ee972436d9!8m2!3d52.2295941!4d21.0115974!16s%2Fg%2F11vpz0n7rm!19sChIJmdtMLY7NHkcR2TYkl-4iYeU?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Eyebar",
+    "rating": 4.5,
+    "review_count": 459,
+    "address": "Ul. Inflancka 4b, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Eyebar+-+brwi,+rz%C4%99sy,+makija%C5%BCe,+manicure,+pedicure,+podologia/data=!4m7!3m6!1s0x471ecc7617de4e99:0x44243b21fa645cc7!8m2!3d52.2558483!4d20.9940761!16s%2Fg%2F11c6qbsq6f!19sChIJmU7eF3bMHkcRx1xk-iE7JEQ?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Fitness Club & Solarium Smolna 10",
+    "rating": 4.7,
+    "review_count": 129,
+    "address": "Smolna 10, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Fitness+Club+%26+Solarium+Smolna+10/data=!4m7!3m6!1s0x471eccf7bbcdd02f:0x62f7045c57387680!8m2!3d52.2333514!4d21.0246456!16s%2Fg%2F12vqw8237!19sChIJL9DNu_fMHkcRgHY4V1wE92I?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "FLAWLESS SKIN",
+    "rating": 4.8,
+    "review_count": 70,
+    "address": "al. Jana Pawła II 66, Warszawa",
+    "district": "Śródmieście",
+    "category": "Kosmetyczka",
+    "source_url": "https://www.google.com/maps/place/FLAWLESS+SKIN+%7C+Kosmetolog+%7C+Dermapen+%7C+Stymulatory+tkankowe+%7C+Mezoterapia+ig%C5%82owa+%7C+ScarINK+%7C+Kosmetyczka+%7C+Warszawa/data=!4m7!3m6!1s0x471ecd96121d8b07:0x5e2778fc5bc0b934!8m2!3d52.2485!4d20.9884427!16s%2Fg%2F11h1hnwn9j!19sChIJB4sdEpbNHkcRNLnAW_x4J14?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Fryzjer",
+    "rating": 4.5,
+    "review_count": 16,
+    "address": "Smolna 18/Lok 3, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/Fryzjer+warszawa/data=!4m7!3m6!1s0x471ecd38b2157c35:0xf63463418c97112e!8m2!3d52.2334569!4d21.0238201!16s%2Fg%2F11qp4tr8rd!19sChIJNXwVsjjNHkcRLhGXjEFjNPY?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Fryzjer",
+    "rating": 4.8,
+    "review_count": 251,
+    "address": "Dobra 29, Warszawa",
+    "district": "Śródmieście",
+    "category": "Fryzjer",
+    "source_url": "https://www.google.com/maps/place/Fryzjer+Warszawa+-+CUT+IT/data=!4m7!3m6!1s0x471ecd9bcc2524c3:0xef2834c0e0654c06!8m2!3d52.238648!4d21.027562!16s%2Fg%2F11p0vh0y_m!19sChIJwyQlzJvNHkcRBkxl4MA0KO8?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Fryzjernia Warszawska",
+    "rating": 4.6,
+    "review_count": 191,
+    "address": "Solec 54, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/Fryzjernia+Warszawska/data=!4m7!3m6!1s0x471ecc584b6593e3:0x42bf84bc51f52062!8m2!3d52.2366807!4d21.0294093!16s%2Fg%2F11clyqz98s!19sChIJ45NlS1jMHkcRYiD1UbyEv0I?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Gabinet Kosmetyczno-Podologiczny Sylwia Miniakowska",
+    "rating": 5,
+    "review_count": 11,
+    "address": "Gen. W. Andersa 25, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Gabinet+Kosmetyczno-Podologiczny+Sylwia+Miniakowska/data=!4m7!3m6!1s0x284f59617661aeb1:0xff307fa8b82ac0da!8m2!3d52.251306!4d20.9979009!16s%2Fg%2F11y0_6n0p6!19sChIJsa5hdmFZTygR2sAquKh_MP8?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "GK Expert Urody",
+    "rating": 4.8,
+    "review_count": 129,
+    "address": "Marszałkowska 87/133, Piętro 5, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/GK+Expert+Urody/data=!4m7!3m6!1s0x471ecda60d21a609:0x32c4e42abf96da17!8m2!3d52.2277589!4d21.012537!16s%2Fg%2F11f6158grs!19sChIJCaYhDabNHkcRF9qWvyrkxDI?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Good Look Barbershop",
+    "rating": 4.7,
+    "review_count": 216,
+    "address": "Marszałkowska 84/92, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/Good+Look+Barbershop/data=!4m7!3m6!1s0x471ecd35e308cf93:0xa8effc34b5a0ab35!8m2!3d52.2281775!4d21.0134265!16s%2Fg%2F11h3jh8n8z!19sChIJk88I4zXNHkcRNaugtTT876g?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Hair House Warsaw",
+    "rating": 4.8,
+    "review_count": 88,
+    "address": "Widok 22, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/Salon+Fryzjerski+%7C+Hair+House+Warsaw/data=!4m7!3m6!1s0x471ecd6766414e03:0x5bcbe909995d963f!8m2!3d52.2311166!4d21.0131304!16s%2Fg%2F11rsvd_4x5!19sChIJA05BZmfNHkcRP5ZdmQnpy1s?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Haircut Factory Studio Fryzur",
+    "rating": 4.6,
+    "review_count": 39,
+    "address": "Nowy Świat 53/105, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/Haircut+Factory+Studio+Fryzur/data=!4m7!3m6!1s0x471eccf58ed909ad:0xa05be47a4236fc7!8m2!3d52.2356215!4d21.0180462!16s%2Fg%2F1tj56jlw!19sChIJrQnZjvXMHkcRx28jpEe-BQo?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "HUGO Masaż",
+    "rating": 4.6,
+    "review_count": 33,
+    "address": "Pokorna 2, Warszawa",
+    "district": "Śródmieście",
+    "category": "Masaż",
+    "source_url": "https://www.google.com/maps/place/HUGO+Masa%C5%BC+Warszawa+%E2%80%93+Erotic+Massage+%7C+Nuru+%7C+Lingam/data=!4m7!3m6!1s0x471ecd3c2f116c9b:0xaeb7dc45e6afc7a!8m2!3d52.254629!4d20.9935179!16s%2Fg%2F11x6gr2bp2!19sChIJm2wRLzzNHkcRevxqXsR96wo?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Imperial Clinic",
+    "rating": 5,
+    "review_count": 116,
+    "address": "Zygmunta Słomińskiego 7, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Imperial+Clinic+-+medycyna+estetyczna+Warszawa+%C5%9Ar%C3%B3dmie%C5%9Bcie/data=!4m7!3m6!1s0x471ecbd5bec362bb:0x36ae96e98f8f170e!8m2!3d52.2569056!4d20.9919463!16s%2Fg%2F11rjh7_n8g!19sChIJu2LDvtXLHkcRDhePj-mWrjY?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "INOI Hair & Beauty",
+    "rating": 5,
+    "review_count": 55,
+    "address": "Antoniego Edwarda Odyńca 57/36, Warszawa",
+    "district": "Mokotów",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/INOI+Hair+%26+Beauty/data=!4m7!3m6!1s0x471eccd5a0d43447:0x6c0a0e582dfb28c2!8m2!3d52.1958485!4d21.0130637!16s%2Fg%2F12hkx4xwq!19sChIJRzTUoNXMHkcRwij7LVgOCmw?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Ivy Beauty and Bubbles",
+    "rating": 4.7,
+    "review_count": 959,
+    "address": "Emilii Plater 47, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Ivy+Beauty+and+Bubbles+Warszawa/data=!4m7!3m6!1s0x471ecc8c46ef2227:0x9532e53f65f9b575!8m2!3d52.2317308!4d21.0028873!16s%2Fg%2F11g7267hq2!19sChIJJyLvRozMHkcRdbX5ZT_lMpU?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Jak Miło",
+    "rating": 5,
+    "review_count": 11,
+    "address": "Puławska 105, Warszawa",
+    "district": "Mokotów",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Jak+Mi%C5%82o+-+salon+kosmetyczny/data=!4m7!3m6!1s0x471ecd5174370a2f:0x2b321bcd19ea2d3!8m2!3d52.1965217!4d21.0246033!16s%2Fg%2F11ycyzf1qr!19sChIJLwo3dFHNHkcR06Ke0bwhswI?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Kunc & Dziedzic",
+    "rating": 4.9,
+    "review_count": 119,
+    "address": "Wojciecha Górskiego 6, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/Kunc+%26+Dziedzic/data=!4m7!3m6!1s0x471eccf07530ff17:0xe8ade4cae1a24699!8m2!3d52.2343681!4d21.0157146!16s%2Fg%2F12hq23360!19sChIJF_8wdfDMHkcRmUai4crkreg?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Larte - Art salon beauty w Śródmieściu",
+    "rating": 4.5,
+    "review_count": 289,
+    "address": "Poznańska 16, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Larte+-+Art+salon+beauty+w+%C5%9Ar%C3%B3dmie%C5%9Bciu/data=!4m7!3m6!1s0x471ecd0dfb9e2f57:0x68780aa12a07c754!8m2!3d52.2252317!4d21.0120362!16s%2Fg%2F11tnwm5lnj!19sChIJVy-e-w3NHkcRVMcHKqEKeGg?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "LE CHARME",
+    "rating": 4.9,
+    "review_count": 88,
+    "address": "Stawki 6/lok U3, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/LE+CHARME+-+kosmetologia+estetyczna,+depilacja+laserowa/data=!4m7!3m6!1s0x471ecb86bf3172b3:0x7363af7092db907d!8m2!3d52.2537673!4d20.9909816!16s%2Fg%2F11nmcsk5h9!19sChIJs3Ixv4bLHkcRfZDbknCvY3M?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Let's Beauty",
+    "rating": 4.6,
+    "review_count": 9,
+    "address": "Wilcza 28/5, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Let%27s+Beauty/data=!4m7!3m6!1s0x471ecde5e0dcbfaf:0x5500f2c290f7349f!8m2!3d52.2252501!4d21.0167217!16s%2Fg%2F11tdck1s_y!19sChIJr7_c4OXNHkcRnzT3kMLyAFU?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Mariia Beauty",
+    "rating": 4.9,
+    "review_count": 76,
+    "address": "Żurawia 24/lok.31, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Mariia+Beauty/data=!4m7!3m6!1s0x471ecd4c95f4ca77:0xd15e6b15e5ce791e!8m2!3d52.2285264!4d21.0152984!16s%2Fg%2F11vqp590y0!19sChIJd8r0lUzNHkcRHnnO5RVrXtE?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "MICHALSKA Hair Art",
+    "rating": 4.3,
+    "review_count": 15,
+    "address": "Smolna 18/Lok 3, Warszawa",
+    "district": "Śródmieście",
+    "category": "Fryzjer",
+    "source_url": "https://www.google.com/maps/place/MICHALSKA+Hair+Art/data=!4m7!3m6!1s0x471ecd407bb3baed:0xda46474b1a15f6fd!8m2!3d52.2334569!4d21.0238201!16s%2Fg%2F11sjdw_gpz!19sChIJ7bqze0DNHkcR_fYVGktHRto?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "MOI Beauty Studio",
+    "rating": 5,
+    "review_count": 12,
+    "address": "Bonifraterska 3/11/m21, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/MOI+Beauty+Studio/data=!4m7!3m6!1s0x471ecd02fd8be849:0x251a923ecaaddb35!8m2!3d52.2523185!4d21.0007599!16s%2Fg%2F11jbh_jgby!19sChIJSeiL_QLNHkcRNdutyj6SGiU?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Mrs.Beauty Sp. z o.o.",
+    "rating": 5,
+    "review_count": 8,
+    "address": "163 Aleja Solidarności, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Mrs.Beauty+Sp.+z+o.o./data=!4m7!3m6!1s0x471ecd4a9f805c3d:0x46dbe7b7805934bb!8m2!3d52.237899!4d20.984487!16s%2Fg%2F11z40n7kn8!19sChIJPVyAn0rNHkcRuzRZgLfn20Y?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Nice Spa w Warszawie",
+    "rating": 4.7,
+    "review_count": 169,
+    "address": "3 Biały Kamień, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Nice+Spa+w+Warszawie/data=!4m7!3m6!1s0x471ecd9e4b09b6e1:0x7def6202350f0cc5!8m2!3d52.205766!4d20.995491!16s%2Fg%2F11j4q03lbp!19sChIJ4bYJS57NHkcRxQwPNQJi730?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Niepokorni Ona i On",
+    "rating": 4.8,
+    "review_count": 86,
+    "address": "Pokorna 2/U23, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/Niepokorni+Ona+i+On/data=!4m7!3m6!1s0x471ecc763123252f:0xc2b42f28aedc8c66!8m2!3d52.2551409!4d20.9942088!16s%2Fg%2F11fy4vhxtr!19sChIJLyUjMXbMHkcRZozcrigvtMI?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "O WŁOS Pracownia Fryzjerska . Fryzjer",
+    "rating": 4.8,
+    "review_count": 88,
+    "address": "Bracka 11/13, Warszawa",
+    "district": "Śródmieście",
+    "category": "Fryzjer",
+    "source_url": "https://www.google.com/maps/place/O+W%C5%81OS+Pracownia+Fryzjerska+.+Fryzjer+Warszawa/data=!4m7!3m6!1s0x471eccf14cdf130b:0x93923f251f2b7798!8m2!3d52.2304438!4d21.0186315!16s%2Fg%2F1w6r70j9!19sChIJCxPfTPHMHkcRmHcrHyU_kpM?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Oasis Beauty & Hair Salon ( Oasis Beauty Day Spa )",
+    "rating": 4.6,
+    "review_count": 125,
+    "address": "Aleje Jerozolimskie 65/79 pasaż handlowy, Warsaw Presidential Hotel, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Oasis+Beauty+%26+Hair+Salon+%28+Oasis+Beauty+Day+Spa+%29/data=!4m7!3m6!1s0x471ecc8d5f47cd9d:0x146597168da685ae!8m2!3d52.2276701!4d21.0036396!16s%2Fg%2F11c3sw9t1x!19sChIJnc1HX43MHkcRroWmjRaXZRQ?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Oksiline Beauty",
+    "rating": 4.7,
+    "review_count": 155,
+    "address": "Juliana Smulikowskiego 4A/lokal 31, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Oksiline+Beauty/data=!4m7!3m6!1s0x471ecd20bc69c011:0x3642f25f289f87f9!8m2!3d52.237361!4d21.031904!16s%2Fg%2F11r3m79xww!19sChIJEcBpvCDNHkcR-YefKF_yQjY?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Po Prostu Fryzjer Krzysztof Szymański",
+    "rating": 4.9,
+    "review_count": 15,
+    "address": "Oficyna w podwórzu, Ordynacka 11, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/Po+Prostu+Fryzjer+Krzysztof+Szyma%C5%84ski/data=!4m7!3m6!1s0x471ecdd7a0904a57:0xa105ffd6e7730bbb!8m2!3d52.2355313!4d21.0195768!16s%2Fg%2F11qwgl3jl9!19sChIJV0qQoNfNHkcRuwtz59b_BaE?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Pokorna Clinic",
+    "rating": 4.9,
+    "review_count": 160,
+    "address": "Pokorna 2/lok u1, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Pokorna+Clinic/data=!4m7!3m6!1s0x471ecdae80d2ebd7:0xa658d11858495bc8!8m2!3d52.2554852!4d20.9948197!16s%2Fg%2F11jyjby8ts!19sChIJ1-vSgK7NHkcRyFtJWBjRWKY?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Pracownia Beauty",
+    "rating": 4.6,
+    "review_count": 56,
+    "address": "Marszałkowska 37/A, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Pracownia+Beauty/data=!4m7!3m6!1s0x471ecdae2cb03b93:0x5639cc434ef09e19!8m2!3d52.2192762!4d21.0179537!16s%2Fg%2F11fl981nnk!19sChIJkzuwLK7NHkcRGZ7wTkPMOVY?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Presidential Beauty House",
+    "rating": 5,
+    "review_count": 47,
+    "address": "Zygmunta Słomińskiego 19/504, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Presidential+Beauty+House+Warszawa+%7C+Fryzjer+strzy%C5%BCenie+%7C+Manicure+%7C+Pedicure+%7C+Brwi+Rz%C4%99sy+%7C+przed%C5%82u%C5%BCanie+%7C+oczyszczanie/data=!4m7!3m6!1s0x471ecbc7b09670e9:0x80637501c1a6791a!8m2!3d52.2544906!4d20.9850487!16s%2Fg%2F11s8346830!19sChIJ6XCWsMfLHkcRGnmmwQF1Y4A?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "SAINT HAIR",
+    "rating": 4.8,
+    "review_count": 88,
+    "address": "Ordynacka 11, Warszawa",
+    "district": "Śródmieście",
+    "category": "Fryzjer",
+    "source_url": "https://www.google.com/maps/place/SAINT+HAIR+%7C+Przed%C5%82u%C5%BCanie+i+zag%C4%99szczanie+w%C5%82os%C3%B3w+%7C+Koloryzacja+%7C+Fryzjer/data=!4m7!3m6!1s0x6efe2895180faf7b:0x1c409767c48a9498!8m2!3d52.2357038!4d21.0195317!16s%2Fg%2F11wqgnbbcg!19sChIJe68PGJUo_m4RmJSKxGeXQBw?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Salon Fryzjerski Atelier Stylissimo",
+    "rating": 4.1,
+    "review_count": 184,
+    "address": "Smolna 40, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/Salon+Fryzjerski+Atelier+Stylissimo/data=!4m7!3m6!1s0x471ecc8f1e9cfe4d:0xf8f6e774ccc30c7c!8m2!3d52.2327469!4d21.0214476!16s%2Fg%2F1tfzl2kd!19sChIJTf6cHo_MHkcRfAzDzHTn9vg?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Salon Fryzjerski Berendowicz & Kublin Nowy Świat 60 Fryzjer",
+    "rating": 4.7,
+    "review_count": 560,
+    "address": "Nowy Świat 60, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/Salon+Fryzjerski+Berendowicz+%26+Kublin+Nowy+%C5%9Awiat+60+Fryzjer+Warszawa/data=!4m7!3m6!1s0x471ecc5f515c00e7:0xc73d560164964a3b!8m2!3d52.2358538!4d21.0185888!16s%2Fg%2F11bbth6z1t!19sChIJ5wBcUV_MHkcRO0qWZAFWPcc?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Salon fryzjerski Haircut Express",
+    "rating": 4.5,
+    "review_count": 1109,
+    "address": "Chmielna 34, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/Salon+fryzjerski+Haircut+Express/data=!4m7!3m6!1s0x471eccf49dd6ad2b:0x5c7dc1f09b2c0469!8m2!3d52.232011!4d21.0122779!16s%2Fg%2F11b72ptyxf!19sChIJK63WnfTMHkcRaQQsm_DBfVw?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Salon Kleo",
+    "rating": 5,
+    "review_count": 2,
+    "address": "Pokorna 2, Warszawa",
+    "district": "Śródmieście",
+    "category": "Masaż",
+    "source_url": "https://www.google.com/maps/place/Salon+Kleo+%E2%80%93+Masa%C5%BC+Relaksacyjny+VIP+Warszawa+Centrum/data=!4m7!3m6!1s0x471ecd6634c4a7a3:0x9a350d82652de65!8m2!3d52.2547441!4d20.9938077!16s%2Fg%2F11mrf0ym2p!19sChIJo6fENGbNHkcRZd5SJthQowk?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Salon kosmetyczny",
+    "rating": 4.8,
+    "review_count": 18,
+    "address": "al. Jana Pawła II 68, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Salon+kosmetyczny+-+Expert+Studio/data=!4m7!3m6!1s0x471ecb8761f3dffb:0xff0957f35eca7dc9!8m2!3d52.2491576!4d20.9878155!16s%2Fg%2F1tf4csvh!19sChIJ-9_zYYfLHkcRyX3KXvNXCf8?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Salon kosmetyczny \"Beauty House\"",
+    "rating": 4.7,
+    "review_count": 41,
+    "address": "Łowicka 23/3, Warszawa",
+    "district": "Mokotów",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Salon+kosmetyczny+%22Beauty+House%22/data=!4m7!3m6!1s0x471ecdd86e886735:0x78cf975062f1afd4!8m2!3d52.2010903!4d21.0054865!16s%2Fg%2F11h64zrcl3!19sChIJNWeIbtjNHkcR1K_xYlCXz3g?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Salon piękności PIED-DE-POULE Grzybowska, 4",
+    "rating": 4.7,
+    "review_count": 998,
+    "address": "Grzybowska 4, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Salon+pi%C4%99kno%C5%9Bci+PIED-DE-POULE+Grzybowska,+4/data=!4m7!3m6!1s0x471ecd4e2865eab3:0x9d40f1dbb97d4a50!8m2!3d52.2374664!4d21.0021999!16s%2Fg%2F11t7yvqnbq!19sChIJs-plKE7NHkcRUEp9udvxQJ0?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Salon piękności PIED-DE-POULE Piękna 49",
+    "rating": 4.7,
+    "review_count": 895,
+    "address": "Piękna 49, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Salon+pi%C4%99kno%C5%9Bci+PIED-DE-POULE+Pi%C4%99kna+49/data=!4m7!3m6!1s0x471ecdc92652372d:0x37be9e41b0fbedeb!8m2!3d52.2227616!4d21.0105097!16s%2Fg%2F11qbh2cs8t!19sChIJLTdSJsnNHkcR6-37sEGevjc?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Salon Pretty You",
+    "rating": 5,
+    "review_count": 5,
+    "address": "Stawki 2, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Salon+Pretty+You/data=!4m7!3m6!1s0x471ecde33bd00b69:0xc8155dc499d392c5!8m2!3d52.2547143!4d20.9965598!16s%2Fg%2F11stvhfryh!19sChIJaQvQO-PNHkcRxZLTmcRdFcg?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Salon u Chłopaków",
+    "rating": 4.7,
+    "review_count": 58,
+    "address": "Wojciecha Górskiego 6/Lok 22, II klatka, piętro 1, Warszawa",
+    "district": "Śródmieście",
+    "category": "Fryzjer",
+    "source_url": "https://www.google.com/maps/place/Salon+u+Ch%C5%82opak%C3%B3w/data=!4m7!3m6!1s0x471ecd9060162883:0x690ac5e5f2693129!8m2!3d52.2338089!4d21.0155552!16s%2Fg%2F11pz0_xcfq!19sChIJgygWYJDNHkcRKTFp8uXFCmk?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Salon urody Minoko Beauty Space",
+    "rating": 4.8,
+    "review_count": 386,
+    "address": "Krochmalna 54/lokal U8, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon urody",
+    "source_url": "https://www.google.com/maps/place/Salon+urody+Minoko+Beauty+Space/data=!4m7!3m6!1s0x471ecd96e5edf819:0x559eae0c18a238ea!8m2!3d52.2363672!4d20.9876855!16s%2Fg%2F11v5x4zxrm!19sChIJGfjt5ZbNHkcR6jiiGAyunlU?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "SAME TA beauty salon",
+    "rating": 4.6,
+    "review_count": 112,
+    "address": "Mikołaja Kopernika 8/18, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/SAME+TA+beauty+salon/data=!4m7!3m6!1s0x471ecd35b622378b:0x5f8846b44f48e421!8m2!3d52.2352889!4d21.0211693!16s%2Fg%2F11t2_rqfx8!19sChIJizcitjXNHkcRIeRIT7RGiF8?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "SANSHÉ",
+    "rating": 5,
+    "review_count": 707,
+    "address": "Marszałkowska 74, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/SANSH%C3%89+Warszawa+-+salon+kosmetyczny/data=!4m7!3m6!1s0x471ecd8344af9733:0x6dbeaae00545eba5!8m2!3d52.2260009!4d21.0145011!16s%2Fg%2F11wc1rn4d9!19sChIJM5evRIPNHkcRpetFBeCqvm0?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "SLOW BEAUTY MASAŻ ZABIEGI NA TWARZ I CIAŁO KOSMETOLOGIA ENDERMOLOGIA MEZOTERAPIA KOBIDO",
+    "rating": 5,
+    "review_count": 54,
+    "address": "Dominika Merliniego 5/2U, Warszawa",
+    "district": "Mokotów",
+    "category": "Masaż",
+    "source_url": "https://www.google.com/maps/place/SLOW+BEAUTY+MASA%C5%BB+ZABIEGI+NA+TWARZ+I+CIA%C5%81O+KOSMETOLOGIA+ENDERMOLOGIA+MEZOTERAPIA+KOBIDO/data=!4m7!3m6!1s0x471ecd1a123d9451:0x7c54ba54bf780356!8m2!3d52.1954673!4d21.0255005!16s%2Fg%2F11l34wlz1w!19sChIJUZQ9EhrNHkcRVgN4v1S6VHw?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "SOLOVEI Nails & Beauty",
+    "rating": 4.9,
+    "review_count": 54,
+    "address": "Wiktorska 6, Warszawa",
+    "district": "Mokotów",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/SOLOVEI+Nails+%26+Beauty/data=!4m7!3m6!1s0x471ecdbe56d98f13:0xd6016de7e8b32626!8m2!3d52.2011382!4d21.0227243!16s%2Fg%2F11fjty660l!19sChIJE4_ZVr7NHkcRJiaz6OdtAdY?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Soul Hair",
+    "rating": 4.5,
+    "review_count": 231,
+    "address": "Tamka 49, Warszawa",
+    "district": "Śródmieście",
+    "category": "Fryzjer",
+    "source_url": "https://www.google.com/maps/place/Soul+Hair/data=!4m7!3m6!1s0x471ecdc0ee01f67f:0xc7d4903ae1449cdc!8m2!3d52.2362419!4d21.0208819!16s%2Fg%2F11rwr8_6b6!19sChIJf_YB7sDNHkcR3JxE4TqQ1Mc?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Sposób na piękno",
+    "rating": 4.7,
+    "review_count": 57,
+    "address": "Dzika 19/23, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Spos%C3%B3b+na+pi%C4%99kno/data=!4m7!3m6!1s0x471ecb889c3482ed:0xd8795c3573d59061!8m2!3d52.2534483!4d20.9851703!16s%2Fg%2F11b5z2y99r!19sChIJ7YI0nIjLHkcRYZDVczVcedg?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Strefa Cięcia",
+    "rating": 4.6,
+    "review_count": 49,
+    "address": "4,6-gwiazdkowy : 49, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/Strefa+Ci%C4%99cia+-+Salon+fryzjersko-kosmetyczny+Andersa/data=!4m7!3m6!1s0x471ecc774a1b654d:0x8132589e86b0f7d6!8m2!3d52.252348!4d20.9986431!16s%2Fg%2F1tj496_7!19sChIJTWUbSnfMHkcR1vewhp5YMoE?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Studio Fryzjersko",
+    "rating": 4.9,
+    "review_count": 84,
+    "address": "Puławska 156, Warszawa",
+    "district": "Mokotów",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Studio+Fryzjersko+-+Kosmetyczne+%E2%80%9EBella%E2%80%9D/data=!4m7!3m6!1s0x471933fb5542675f:0x37b339ed52300b91!8m2!3d52.186546!4d21.024233!16s%2Fg%2F11p_2bh8th!19sChIJX2dCVfszGUcRkQswUu05szc?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Studio Piękna Manicure Hybrydowy Depilacja Woskiem Makijaż Permanentny",
+    "rating": 5,
+    "review_count": 12,
+    "address": "Gen. W. Andersa 27, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Studio+Pi%C4%99kna+Manicure+Hybrydowy+Depilacja+Woskiem+Makija%C5%BC+Permanentny/data=!4m7!3m6!1s0x471ecd12b135db67:0x323ba5b050c6c143!8m2!3d52.251407!4d20.9978239!16s%2Fg%2F11f6yw702t!19sChIJZ9s1sRLNHkcRQ8HGULClOzI?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Studio Urody Douglas Arkadia",
+    "rating": 4.7,
+    "review_count": 13,
+    "address": "al. Jana Pawła II 82, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon urody",
+    "source_url": "https://www.google.com/maps/place/Studio+Urody+Douglas+Arkadia/data=!4m7!3m6!1s0x471ecb1661931437:0xec8f35bff82c7c22!8m2!3d52.2571404!4d20.9844813!16s%2Fg%2F11rr4z2956!19sChIJNxSTYRbLHkcRInws-L81j-w?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Studio Urody Stawki 3",
+    "rating": 4.7,
+    "review_count": 104,
+    "address": "Stawki 3, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/Studio+Urody+Stawki+3/data=!4m7!3m6!1s0x471ecd3933bbd667:0xfa30da72f01545ea!8m2!3d52.253368!4d20.9925408!16s%2Fg%2F11fj7vwkys!19sChIJZ9a7MznNHkcR6kUV8HLaMPo?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Terra Spa Iwona Kossakowska",
+    "rating": 4.5,
+    "review_count": 311,
+    "address": "Chmielna 5/lok. nr 7, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Terra+Spa+Iwona+Kossakowska/data=!4m7!3m6!1s0x471eccf42921590d:0xe2c67f9d72c3ba28!8m2!3d52.232976!4d21.018357!16s%2Fg%2F1w6644s5!19sChIJDVkhKfTMHkcRKLrDcp1_xuI?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "TOMASZ PIĘTOŃ",
+    "rating": 4.9,
+    "review_count": 130,
+    "address": "Centrum, Śródmieście, Żurawia 26/14, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/TOMASZ+PI%C4%98TO%C5%83+%7C+HAIR+%7C+SALON+FRYZJERSKI+%7C+WARSZAWA+CENTRUM/data=!4m7!3m6!1s0x471ecd84e6b5613d:0xf511ef976d7ddb42!8m2!3d52.2284716!4d21.0145725!16s%2Fg%2F11qh5ygpf4!19sChIJPWG15oTNHkcRQtt9bZfvEfU?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "TOP FRYZJER",
+    "rating": 4.4,
+    "review_count": 55,
+    "address": "Rondo Romana Dmowskiego, Podziemia, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/TOP+FRYZJER/data=!4m7!3m6!1s0x471ecdf2bb94f465:0x3a051a374f54e182!8m2!3d52.2296098!4d21.0119846!16s%2Fg%2F11k3d2nkbz!19sChIJZfSUu_LNHkcRguFUTzcaBTo?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "TT STUDIO Beauty Space",
+    "rating": 5,
+    "review_count": 218,
+    "address": "Jana i Jędrzeja Śniadeckich 19, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/TT+STUDIO+Beauty+Space/data=!4m7!3m6!1s0x471ecfbd0f878f99:0xef13c1fff8097725!8m2!3d52.2204448!4d21.0133867!16s%2Fg%2F11t42p7vy1!19sChIJmY-HD73PHkcRJXcJ-P_BE-8?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Ultima Indian Beauty Studio & Spa",
+    "rating": 4.8,
+    "review_count": 136,
+    "address": "Lewicka 14, Warszawa",
+    "district": "Mokotów",
+    "category": "Masaż",
+    "source_url": "https://www.google.com/maps/place/Ultima+Indian+Beauty+Studio+%26+Spa/data=!4m7!3m6!1s0x471eccd75239bd87:0x8203ca7a37fad996!8m2!3d52.2032794!4d21.0132582!16s%2Fg%2F1v3hyr2g!19sChIJh705UtfMHkcRltn6N3rKA4I?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Vanadis nordic beauty studio",
+    "rating": 5,
+    "review_count": 19,
+    "address": "Gen. W. Andersa 27A/Lokal 40, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Vanadis+nordic+beauty+studio/data=!4m7!3m6!1s0x471ecd97612d6aa1:0xe5ef2a22f9b34044!8m2!3d52.2518935!4d20.9968559!16s%2Fg%2F11vjjnfqnd!19sChIJoWotYZfNHkcRRECz-SIq7-U?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "W różowym humorze",
+    "rating": 4.8,
+    "review_count": 24,
+    "address": "Gen. W. Andersa 27, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/W+r%C3%B3%C5%BCowym+humorze/data=!4m7!3m6!1s0x471ecd0365bf6dcf:0x736c1dd3895de1df!8m2!3d52.2516678!4d20.9976165!16s%2Fg%2F11g1ks4r3v!19sChIJz22_ZQPNHkcR3-FdidMdbHM?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Warsaw Lips",
+    "rating": 4.8,
+    "review_count": 5,
+    "address": "Zygmunta Słomińskiego 19/504, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon",
+    "source_url": "https://www.google.com/maps/place/Warsaw+Lips+-+Kosmetologia+Estetyczna+w+Centrum+Warszawy/data=!4m7!3m6!1s0x471ecd66273b49c9:0xa92449d43bb186d8!8m2!3d52.2544406!4d20.9851772!16s%2Fg%2F11pz6ptp5_!19sChIJyUk7J2bNHkcR2IaxO9RJJKk?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "WT Studio Beauty",
+    "rating": 4.9,
+    "review_count": 44,
+    "address": "Zgoda 13, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon piękności",
+    "source_url": "https://www.google.com/maps/place/WT+Studio+Beauty+%E2%80%93+Us%C5%82ugi+kosmetyczne,+masa%C5%BC,+presoterapia,+manicure,+pedicure/data=!4m7!3m6!1s0x471ecd6f00e1d04d:0x340b65a6858697aa!8m2!3d52.2334433!4d21.0108417!16s%2Fg%2F11t815wx0l!19sChIJTdDhAG_NHkcRqpeGhaZlCzQ?authuser=0&hl=pl&rclk=1"
+  },
+  {
+    "name": "Zakład Mąż Fryzjerki",
+    "rating": 4.8,
+    "review_count": 483,
+    "address": "Warecka 4/6, Warszawa",
+    "district": "Śródmieście",
+    "category": "Salon fryzjerski",
+    "source_url": "https://www.google.com/maps/place/Zak%C5%82ad+M%C4%85%C5%BC+Fryzjerki+%7C+Warecka/data=!4m7!3m6!1s0x471ecc5f80d66fef:0x8dd03061de1954a1!8m2!3d52.2365976!4d21.0167522!16s%2Fg%2F11gfk795vc!19sChIJ72_WgF_MHkcRoVQZ3mEw0I0?authuser=0&hl=pl&rclk=1"
+  }
+]

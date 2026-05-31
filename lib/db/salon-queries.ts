@@ -1,8 +1,13 @@
 import type Database from "better-sqlite3";
 import { getDb } from "./client";
-import { rowToDetail, type SalonDetail, type SalonListItem } from "./salon-serialize";
-import type { SalonUpdateInput } from "./salon-validation";
+import {
+  rowToDetail,
+  rowToListItem,
+  type SalonDetail,
+  type SalonListItem,
+} from "./salon-serialize";
 import type { SalonRow } from "./types";
+import type { SalonUpdateInput } from "./salon-validation";
 
 export type SalonListFilters = {
   district?: string;
@@ -10,7 +15,7 @@ export type SalonListFilters = {
 };
 
 const LIST_SELECT = `
-  SELECT id, name, district, rating, price_range, review_count
+  SELECT *
   FROM Salon
 `;
 
@@ -48,7 +53,8 @@ export function listSalonsWithFilters(
   filters: SalonListFilters = {}
 ): SalonListItem[] {
   const { sql, params } = buildListQuery(filters);
-  return db.prepare(sql).all(...params) as SalonListItem[];
+  const rows = db.prepare(sql).all(...params) as SalonRow[];
+  return rows.map(rowToListItem);
 }
 
 export function getSalonByIdWithDb(
@@ -88,7 +94,7 @@ export function updateSalonWithDb(
   }
   if (input.phone !== undefined) {
     assignments.push("phone = ?");
-    params.push(input.phone);
+    params.push(input.phone ?? "");
   }
   if (input.website !== undefined) {
     assignments.push("website = ?");
@@ -100,7 +106,7 @@ export function updateSalonWithDb(
   }
   if (input.price_range !== undefined) {
     assignments.push("price_range = ?");
-    params.push(input.price_range);
+    params.push(input.price_range ?? "");
   }
 
   assignments.push("updated_at = datetime('now')");

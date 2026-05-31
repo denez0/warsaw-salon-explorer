@@ -2,9 +2,9 @@ import { Suspense } from "react";
 import { SalonListing } from "@/components/salons/SalonListing";
 
 export const metadata = {
-  title: "Salony — Warsaw Beauty Salon Explorer",
+  title: "Beauty Salons — Warsaw Beauty Salon Explorer",
   description:
-    "Przeglądaj salony beauty w Warszawie z filtrami dzielnic i wyszukiwaniem.",
+    "Browse beauty salons in Warsaw with district filters and search.",
 };
 
 function ListingFallback() {
@@ -28,14 +28,13 @@ export default function SalonsPage() {
     <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
       <header className="mb-8 space-y-2">
         <p className="text-sm font-medium uppercase tracking-wide text-emerald-700">
-          Warszawa
+          Warsaw
         </p>
         <h1 className="text-3xl font-semibold tracking-tight text-zinc-900 sm:text-4xl">
-          Salony beauty
+          Beauty salons
         </h1>
         <p className="max-w-2xl text-balance text-zinc-600">
-          Przeglądaj salony według dzielnicy, ocen i przedziału cenowego. Wyszukaj
-          po nazwie lub usługach.
+          Browse salons by district, rating, and price range. Search by name or services.
         </p>
       </header>
 

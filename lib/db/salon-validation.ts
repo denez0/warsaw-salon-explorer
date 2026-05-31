@@ -1,9 +1,9 @@
 export type SalonUpdateInput = {
   name?: string;
-  phone?: string;
+  phone?: string | null;
   website?: string | null;
   services?: string[];
-  price_range?: string;
+  price_range?: string | null;
 };
 
 function isPlainObject(value: unknown): value is Record<string, unknown> {
@@ -14,7 +14,7 @@ function normalizeServices(value: unknown): string[] | null {
   if (typeof value === "string") {
     const trimmed = value.trim();
     if (!trimmed) {
-      return null;
+      return [];
     }
     try {
       value = JSON.parse(trimmed);
@@ -40,7 +40,7 @@ function normalizeServices(value: unknown): string[] | null {
   }
 
   if (services.length === 0) {
-    return null;
+    return [];
   }
 
   return services;
@@ -87,10 +87,13 @@ export function validateSalonUpdate(
   }
 
   if ("phone" in body) {
-    if (typeof body.phone !== "string" || !body.phone.trim()) {
-      errors.push("phone must be a non-empty string");
+    if (body.phone === null) {
+      data.phone = null;
+    } else if (typeof body.phone === "string") {
+      const trimmed = body.phone.trim();
+      data.phone = trimmed.length > 0 ? trimmed : null;
     } else {
-      data.phone = body.phone.trim();
+      errors.push("phone must be a string or null");
     }
   }
 
@@ -107,18 +110,25 @@ export function validateSalonUpdate(
   }
 
   if ("price_range" in body) {
-    if (typeof body.price_range !== "string" || !body.price_range.trim()) {
-      errors.push("price_range must be a non-empty string");
+    if (body.price_range === null) {
+      data.price_range = null;
+    } else if (typeof body.price_range === "string") {
+      const trimmed = body.price_range.trim();
+      if (!trimmed || trimmed.toLowerCase() === "unknown") {
+        data.price_range = null;
+      } else {
+        data.price_range = trimmed;
+      }
     } else {
-      data.price_range = body.price_range.trim();
+      errors.push("price_range must be a string or null");
     }
   }
 
   if ("services" in body) {
     const services = normalizeServices(body.services);
-    if (!services) {
+    if (services === null) {
       errors.push(
-        "services must be a non-empty array of strings or a JSON array string"
+        "services must be an array of strings or a JSON array string"
       );
     } else {
       data.services = services;

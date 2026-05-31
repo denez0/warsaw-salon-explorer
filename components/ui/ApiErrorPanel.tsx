@@ -11,7 +11,7 @@ export function ApiErrorPanel({
   title,
   message,
   onRetry,
-  retryLabel = "Spróbuj ponownie",
+  retryLabel = "Retry",
 }: ApiErrorPanelProps) {
   return (
     <div

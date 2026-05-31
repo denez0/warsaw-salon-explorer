@@ -12,7 +12,7 @@ export function StarRating({ rating, className = "" }: StarRatingProps) {
   return (
     <div
       className={`flex items-center gap-0.5 text-amber-500 ${className}`}
-      aria-label={`Ocena ${rating.toFixed(1)} z 5`}
+      aria-label={`Rating ${rating.toFixed(1)} out of 5`}
     >
       {Array.from({ length: 5 }, (_, i) => {
         const filled = i < displayFull;

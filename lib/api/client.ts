@@ -17,17 +17,17 @@ export function isApiRequestError(error: unknown): error is ApiRequestError {
 }
 
 function networkMessage(): string {
-  return "Brak połączenia z internetem. Sprawdź sieć i spróbuj ponownie.";
+  return "No internet connection. Check your network and try again.";
 }
 
 function httpMessage(status: number, fallback?: string): string {
   if (status === 404) {
-    return "Nie znaleziono zasobu.";
+    return "Resource not found.";
   }
   if (status >= 500) {
-    return "Błąd serwera. Spróbuj ponownie później.";
+    return "Server error. Please try again later.";
   }
-  return fallback ?? "Wystąpił błąd podczas żądania.";
+  return fallback ?? "An error occurred during the request.";
 }
 
 type ErrorBody = { error?: string; details?: unknown };
@@ -141,7 +141,7 @@ export async function putJson<T>(
   const message =
     typeof errorBody.error === "string"
       ? errorBody.error
-      : httpMessage(res.status, "Nie udało się zapisać zmian");
+      : httpMessage(res.status, "Failed to save changes");
 
   const details = Array.isArray(errorBody.details)
     ? errorBody.details.filter((d): d is string => typeof d === "string")

@@ -12,8 +12,9 @@ import {
 } from "@/lib/api/client";
 import {
   formatRating,
+  formatPriceRangeDisplay,
   PRICE_RANGE_EDIT_OPTIONS,
-  priceRangeToDollars,
+  PRICE_RANGE_UNKNOWN,
   priceRangeToEditValue,
 } from "@/lib/salon-display";
 import {
@@ -49,7 +50,7 @@ type FetchState =
 function salonToForm(salon: SalonDetail): EditForm {
   return {
     name: salon.name,
-    phone: salon.phone,
+    phone: salon.phone ?? "",
     website: salon.website ?? "",
     services: salon.services.join(", "),
     price_range: priceRangeToEditValue(salon.price_range),
@@ -117,7 +118,7 @@ function BackToListingLink({ returnHref }: { returnHref: string }) {
       href={returnHref}
       className="inline-flex text-sm font-medium text-emerald-700 hover:text-emerald-800"
     >
-      ← Wróć do listy
+      ← Back to listing
     </Link>
   );
 }
@@ -125,18 +126,18 @@ function BackToListingLink({ returnHref }: { returnHref: string }) {
 function fetchErrorCopy(error: ApiRequestError): { title: string; message: string } {
   if (error.kind === "network") {
     return {
-      title: "Brak połączenia",
+      title: "No connection",
       message: error.message,
     };
   }
   if (error.status && error.status >= 500) {
     return {
-      title: "Błąd serwera",
+      title: "Server error",
       message: error.message,
     };
   }
   return {
-    title: "Nie udało się załadować salonu",
+    title: "Failed to load salon",
     message: error.message,
   };
 }
@@ -177,7 +178,7 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
         setFetchState({
           status: "error",
           error: new ApiRequestError(
-            "Wystąpił nieoczekiwany błąd.",
+            "An unexpected error occurred.",
             "http"
           ),
         });
@@ -239,10 +240,11 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
 
     const result = await putJson<SalonDetail>(`/api/salons/${salonId}`, {
       name: form.name.trim(),
-      phone: form.phone.trim(),
+      phone: form.phone.trim() || null,
       website: form.website.trim() || null,
       services,
-      price_range: form.price_range,
+      price_range:
+        form.price_range === PRICE_RANGE_UNKNOWN ? null : form.price_range,
     });
 
     setSaving(false);
@@ -251,7 +253,7 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
       setSalon(result.data);
       setForm(salonToForm(result.data));
       setEditing(false);
-      toast.success("Zmiany zostały zapisane.");
+      toast.success("Changes saved.");
       return;
     }
 
@@ -265,7 +267,7 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
       setForm(null);
       setEditing(false);
       setFetchState({ status: "not-found" });
-      toast.error("Salon nie został znaleziony.");
+      toast.error("Salon not found.");
       return;
     }
 
@@ -313,7 +315,9 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
     return null;
   }
 
-  const dollars = priceRangeToDollars(salon.price_range);
+  const priceDisplay = formatPriceRangeDisplay(salon.price_range);
+  const displayServices =
+    salon.services.length > 0 ? salon.services : ["General beauty services"];
 
   return (
     <div className="space-y-6">
@@ -325,7 +329,7 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
             onClick={startEdit}
             className="rounded-lg border border-zinc-200 bg-white px-4 py-2 text-sm font-medium text-zinc-800 shadow-sm hover:border-emerald-300 hover:bg-emerald-50"
           >
-            Edytuj
+            Edit
           </button>
         )}
       </div>
@@ -347,12 +351,12 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
           className="space-y-6 rounded-xl border border-zinc-200 bg-white p-6 shadow-sm"
           noValidate
         >
-          <h1 className="text-2xl font-semibold text-zinc-900">Edycja salonu</h1>
+            <h1 className="text-2xl font-semibold text-zinc-900">Edit salon</h1>
 
           <div className="space-y-4">
             <label className="block">
               <span className="mb-1 block text-sm font-medium text-zinc-700">
-                Nazwa
+                Name
               </span>
               <input
                 type="text"
@@ -374,7 +378,7 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
 
             <label className="block">
               <span className="mb-1 block text-sm font-medium text-zinc-700">
-                Telefon
+                Phone
               </span>
               <input
                 type="tel"
@@ -383,7 +387,7 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
                   clearFieldError("phone");
                   setForm((f) => f && { ...f, phone: e.target.value });
                 }}
-                placeholder="+48 123 456 789"
+                placeholder="Add phone number"
                 className={fieldClass(Boolean(fieldErrors.phone))}
                 aria-invalid={Boolean(fieldErrors.phone)}
                 aria-describedby={fieldErrors.phone ? "phone-error" : undefined}
@@ -397,7 +401,7 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
 
             <label className="block">
               <span className="mb-1 block text-sm font-medium text-zinc-700">
-                Strona WWW
+                Website
               </span>
               <input
                 type="text"
@@ -407,7 +411,7 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
                   clearFieldError("website");
                   setForm((f) => f && { ...f, website: e.target.value });
                 }}
-                placeholder="https://example.pl"
+                placeholder="Add website"
                 className={fieldClass(Boolean(fieldErrors.website))}
                 aria-invalid={Boolean(fieldErrors.website)}
                 aria-describedby={
@@ -423,7 +427,7 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
 
             <label className="block">
               <span className="mb-1 block text-sm font-medium text-zinc-700">
-                Usługi (oddzielone przecinkami)
+                Services (comma separated)
               </span>
               <input
                 type="text"
@@ -432,6 +436,7 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
                   clearFieldError("services");
                   setForm((f) => f && { ...f, services: e.target.value });
                 }}
+                placeholder="e.g., Haircut, Manicure, Facial"
                 className={fieldClass(Boolean(fieldErrors.services))}
                 aria-invalid={Boolean(fieldErrors.services)}
                 aria-describedby={
@@ -447,7 +452,7 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
 
             <label className="block">
               <span className="mb-1 block text-sm font-medium text-zinc-700">
-                Przedział cenowy
+                Price range
               </span>
               <select
                 value={form.price_range}
@@ -466,12 +471,12 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
           </div>
 
           <div className="flex flex-wrap gap-3 border-t border-zinc-100 pt-4">
-            <button
+              <button
               type="submit"
               disabled={saving}
               className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-700 disabled:opacity-60"
             >
-              {saving ? "Zapisywanie…" : "Zapisz"}
+                {saving ? "Saving…" : "Save"}
             </button>
             <button
               type="button"
@@ -479,7 +484,7 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
               disabled={saving}
               className="rounded-lg border border-zinc-200 bg-white px-4 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-50 disabled:opacity-60"
             >
-              Anuluj
+                Cancel
             </button>
           </div>
         </form>
@@ -494,23 +499,27 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
 
           <dl className="space-y-4 text-sm">
             <div>
-              <dt className="font-medium text-zinc-500">Adres</dt>
-              <dd className="mt-0.5 text-zinc-900">{salon.address}</dd>
+              <dt className="font-medium text-zinc-500">Address</dt>
+                <dd className="mt-0.5 text-zinc-900">{salon.address}</dd>
             </div>
             <div>
-              <dt className="font-medium text-zinc-500">Telefon</dt>
+                <dt className="font-medium text-zinc-500">Phone</dt>
               <dd className="mt-0.5">
-                <a
-                  href={`tel:${salon.phone.replace(/\s/g, "")}`}
-                  className="text-emerald-700 hover:text-emerald-800"
-                >
-                  {salon.phone}
-                </a>
+                {salon.phone ? (
+                  <a
+                    href={`tel:${salon.phone.replace(/\s/g, "")}`}
+                    className="text-emerald-700 hover:text-emerald-800"
+                  >
+                    {salon.phone}
+                  </a>
+                ) : (
+                  <span className="text-zinc-400">No phone number available</span>
+                )}
               </dd>
             </div>
             {salon.website && (
               <div>
-                <dt className="font-medium text-zinc-500">Strona WWW</dt>
+                <dt className="font-medium text-zinc-500">Website</dt>
                 <dd className="mt-0.5">
                   <a
                     href={websiteHref(salon.website)}
@@ -524,38 +533,46 @@ export function SalonDetailView({ salonId, returnHref }: SalonDetailProps) {
               </div>
             )}
             <div>
-              <dt className="mb-2 font-medium text-zinc-500">Usługi</dt>
+              <dt className="mb-2 font-medium text-zinc-500">Services</dt>
               <dd className="flex flex-wrap gap-2">
-                {salon.services.map((service) => (
+                {displayServices.map((service) => (
                   <span
                     key={service}
-                    className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium text-zinc-700"
+                    className={`rounded-full px-3 py-1 text-xs font-medium ${
+                      salon.services.length > 0
+                        ? "bg-zinc-100 text-zinc-700"
+                        : "bg-zinc-50 text-zinc-400 italic"
+                    }`}
                   >
                     {service}
                   </span>
                 ))}
               </dd>
             </div>
+
             <div className="flex flex-wrap items-center gap-6 border-t border-zinc-100 pt-4">
               <div>
-                <dt className="font-medium text-zinc-500">Ceny</dt>
+                <dt className="font-medium text-zinc-500">Prices</dt>
                 <dd
-                  className="mt-0.5 font-mono text-lg tracking-wider text-zinc-700"
-                  title={salon.price_range}
+                  className={`mt-0.5 ${
+                    salon.price_range
+                      ? "font-mono text-lg tracking-wider text-zinc-700"
+                      : "text-zinc-400"
+                  }`}
+                  title={salon.price_range ?? undefined}
                 >
-                  {dollars}
+                  {priceDisplay}
                 </dd>
               </div>
               <div>
-                <dt className="font-medium text-zinc-500">Ocena</dt>
+                <dt className="font-medium text-zinc-500">Rating</dt>
                 <dd className="mt-1 flex flex-wrap items-center gap-2">
                   <StarRating rating={salon.rating} />
                   <span className="text-sm font-semibold text-zinc-800">
                     {formatRating(salon.rating)}
                   </span>
                   <span className="text-xs text-zinc-400">
-                    ({salon.review_count}{" "}
-                    {salon.review_count === 1 ? "opinia" : "opinii"})
+                    ({salon.review_count} {salon.review_count === 1 ? "review" : "reviews"})
                   </span>
                 </dd>
               </div>

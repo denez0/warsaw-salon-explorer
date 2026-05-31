@@ -33,18 +33,18 @@ function SalonCardSkeleton() {
 function loadErrorCopy(error: ApiRequestError): { title: string; message: string } {
   if (error.kind === "network") {
     return {
-      title: "Brak połączenia",
+      title: "No connection",
       message: error.message,
     };
   }
   if (error.status && error.status >= 500) {
     return {
-      title: "Błąd serwera",
+      title: "Server error",
       message: error.message,
     };
   }
   return {
-    title: "Nie udało się załadować salonów",
+    title: "Failed to load salons",
     message: error.message,
   };
 }
@@ -86,22 +86,18 @@ export function SalonListing() {
       search: debouncedSearch,
       districts: selectedDistricts,
     });
-    const currentQuery = searchParams.toString();
-    const nextQuery = nextHref.includes("?")
-      ? nextHref.slice(nextHref.indexOf("?") + 1)
-      : "";
-    if (nextQuery !== currentQuery) {
-      router.replace(nextQuery ? `${pathname}?${nextQuery}` : pathname, {
+
+    if (typeof window === "undefined") {
+      return;
+    }
+
+    const currentHref = `${window.location.pathname}${window.location.search}`;
+    if (nextHref !== currentHref) {
+      router.replace(nextHref, {
         scroll: false,
       });
     }
-  }, [
-    debouncedSearch,
-    selectedDistricts,
-    pathname,
-    router,
-    searchParams,
-  ]);
+  }, [debouncedSearch, selectedDistricts, router]);
 
   const listingHref = useMemo(
     () =>
@@ -139,7 +135,7 @@ export function SalonListing() {
       } else {
         setLoadError(
           new ApiRequestError(
-            "Wystąpił nieoczekiwany błąd.",
+            "An unexpected error occurred.",
             "http"
           )
         );
@@ -187,18 +183,18 @@ export function SalonListing() {
     <div className="space-y-8">
       <div className="space-y-4">
         <label className="block">
-          <span className="sr-only">Szukaj salonów</span>
+          <span className="sr-only">Search salons</span>
           <input
             type="search"
             value={searchInput}
             onChange={(e) => setSearchInput(e.target.value)}
-            placeholder="Szukaj po nazwie lub usługach…"
+            placeholder="Search by name or services…"
             className="w-full rounded-xl border border-zinc-200 bg-white px-4 py-3 text-zinc-900 shadow-sm outline-none ring-emerald-500/0 transition placeholder:text-zinc-400 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20"
           />
         </label>
 
         <div>
-          <p className="mb-2 text-sm font-medium text-zinc-700">Dzielnica</p>
+          <p className="mb-2 text-sm font-medium text-zinc-700">District</p>
           <div className="flex flex-wrap gap-2">
             {DISTRICTS.map((district) => {
               const active = selectedDistricts.has(district);
@@ -236,10 +232,10 @@ export function SalonListing() {
       ) : filteredSalons.length === 0 ? (
         <div className="rounded-xl border border-dashed border-zinc-300 bg-white px-6 py-16 text-center">
           <p className="text-lg font-medium text-zinc-800">
-            Brak salonów spełniających kryteria
+            No salons match your criteria
           </p>
           <p className="mt-2 text-sm text-zinc-500">
-            Spróbuj zmienić wyszukiwanie lub wybrane dzielnice.
+            Try changing your search or selected districts.
           </p>
           {hasActiveFilters && (
             <button
@@ -247,7 +243,7 @@ export function SalonListing() {
               onClick={clearFilters}
               className="mt-6 rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-700"
             >
-              Wyczyść filtry
+              Clear filters
             </button>
           )}
         </div>
@@ -255,7 +251,7 @@ export function SalonListing() {
         <>
           <p className="text-sm text-zinc-500">
             {filteredSalons.length}{" "}
-            {filteredSalons.length === 1 ? "salon" : "salonów"}
+            {filteredSalons.length === 1 ? "salon" : "salons"}
           </p>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {filteredSalons.map((salon) => (

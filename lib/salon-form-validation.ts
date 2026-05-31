@@ -5,10 +5,10 @@ const PHONE_PATTERN =
 export function validateSalonPhone(phone: string): string | null {
   const trimmed = phone.trim();
   if (!trimmed) {
-    return "Telefon jest wymagany.";
+    return null;
   }
   if (!PHONE_PATTERN.test(trimmed)) {
-    return "Podaj poprawny numer telefonu (np. +48 123 456 789).";
+    return "Please provide a valid phone number (e.g. +48 123 456 789).";
   }
   const digits = trimmed.replace(/\D/g, "");
   const national =
@@ -16,7 +16,7 @@ export function validateSalonPhone(phone: string): string | null {
       ? digits.slice(2)
       : digits;
   if (national.length < 9 || national.length > 11) {
-    return "Numer telefonu musi mieć 9–11 cyfr.";
+    return "Phone number must contain 9–11 digits.";
   }
   return null;
 }
@@ -32,21 +32,14 @@ export function validateSalonWebsite(website: string): string | null {
   try {
     const url = new URL(withScheme);
     if (!url.hostname || !url.hostname.includes(".")) {
-      return "Podaj poprawny adres strony WWW lub zostaw pole puste.";
+      return "Please provide a valid website URL or leave blank.";
     }
     return null;
   } catch {
-    return "Podaj poprawny adres strony WWW lub zostaw pole puste.";
+    return "Please provide a valid website URL or leave blank.";
   }
 }
 
 export function validateSalonServicesInput(servicesInput: string): string | null {
-  const services = servicesInput
-    .split(",")
-    .map((s) => s.trim())
-    .filter(Boolean);
-  if (services.length === 0) {
-    return "Podaj co najmniej jedną usługę (oddzielone przecinkami).";
-  }
   return null;
 }

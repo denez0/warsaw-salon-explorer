@@ -32,11 +32,14 @@ export function getPriceRangeLevel(priceRange: string): number {
   const level =
     PRICE_RANGE_MAP[trimmed] ??
     inferLevelFromText(trimmed) ??
-    2;
-  return Math.min(4, Math.max(1, level));
+    0;
+  return Math.min(4, Math.max(0, level));
 }
 
+export const PRICE_RANGE_UNKNOWN = "Unknown";
+
 export const PRICE_RANGE_EDIT_OPTIONS = [
+  { label: "Unknown", value: PRICE_RANGE_UNKNOWN },
   { label: "$", value: "50–80 zł" },
   { label: "$$", value: "80–120 zł" },
   { label: "$$$", value: "120–180 zł" },
@@ -44,17 +47,40 @@ export const PRICE_RANGE_EDIT_OPTIONS = [
 ] as const;
 
 export function priceRangeToDollars(priceRange: string): string {
-  return "$".repeat(getPriceRangeLevel(priceRange));
+  const level = getPriceRangeLevel(priceRange);
+  if (!level || level <= 0) {
+    return "Price not available";
+  }
+  return "$".repeat(level);
+}
+
+export function formatPriceRangeDisplay(
+  priceRange: string | null | undefined
+): string {
+  if (!priceRange?.trim()) {
+    return "Price not available";
+  }
+  return priceRangeToDollars(priceRange);
 }
 
 /** Maps stored price_range to a dropdown value for editing. */
-export function priceRangeToEditValue(priceRange: string): string {
+export function priceRangeToEditValue(
+  priceRange: string | null | undefined
+): string {
+  if (!priceRange?.trim()) {
+    return PRICE_RANGE_UNKNOWN;
+  }
   const trimmed = priceRange.trim();
   const exact = PRICE_RANGE_EDIT_OPTIONS.find((o) => o.value === trimmed);
   if (exact) {
     return exact.value;
   }
-  return PRICE_RANGE_EDIT_OPTIONS[getPriceRangeLevel(priceRange) - 1].value;
+  const pricedOptions = PRICE_RANGE_EDIT_OPTIONS.filter(
+    (o) => o.value !== PRICE_RANGE_UNKNOWN
+  );
+  const level = getPriceRangeLevel(priceRange);
+  if (!level || level <= 0) return PRICE_RANGE_UNKNOWN;
+  return pricedOptions[level - 1].value;
 }
 
 export function formatRating(rating: number): string {

@@ -9,11 +9,17 @@
     "lint": "next lint",
     "db:migrate": "tsx scripts/migrate.ts",
     "db:seed": "tsx scripts/seed.ts",
-    "db:setup": "npm run db:migrate && npm run db:seed"
+    "db:setup": "npm run db:migrate && npm run db:seed",
+    "scrape:booksy": "tsx scripts/scrape-booksy.ts",
+    "scrape:maps": "tsx scripts/scrape-google-maps.ts",
+    "test:districts": "tsx scripts/scrape-utils.ts --test-districts"
   },
   "dependencies": {
     "better-sqlite3": "^12.10.0",
     "next": "14.2.35",
+    "puppeteer": "^25.1.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "react": "^18",
     "react-dom": "^18",
     "server-only": "^0.0.1",

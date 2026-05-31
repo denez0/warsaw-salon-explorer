@@ -18,7 +18,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Warsaw Beauty Salon Explorer",
   description:
-    "Przeglądaj salony beauty w Warszawie — wyszukiwanie, filtry dzielnic i szczegóły salonów.",
+    "Browse beauty salons in Warsaw — search, district filters, and salon details.",
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pl">
+    <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-zinc-50 font-sans text-zinc-900 antialiased`}
       >

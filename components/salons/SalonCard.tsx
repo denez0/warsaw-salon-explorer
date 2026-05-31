@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { SalonListItem } from "@/lib/db/salon-serialize";
 import { buildSalonDetailHref } from "@/lib/salons-listing-url";
-import { formatRating, priceRangeToDollars } from "@/lib/salon-display";
+import { formatRating } from "@/lib/salon-display";
 import { StarRating } from "./StarRating";
 
 type SalonCardProps = {
@@ -10,8 +10,6 @@ type SalonCardProps = {
 };
 
 export function SalonCard({ salon, listingHref }: SalonCardProps) {
-  const dollars = priceRangeToDollars(salon.price_range);
-
   return (
     <Link
       href={buildSalonDetailHref(salon.id, listingHref)}
@@ -26,21 +24,14 @@ export function SalonCard({ salon, listingHref }: SalonCardProps) {
         </span>
       </div>
 
-      <div className="mt-auto flex flex-wrap items-center justify-between gap-3 border-t border-zinc-100 pt-4">
-        <div className="flex items-center gap-2">
-          <StarRating rating={salon.rating} />
-          <span className="text-sm font-semibold text-zinc-800">
-            {formatRating(salon.rating)}
-          </span>
-          <span className="text-xs text-zinc-400">
-            ({salon.review_count})
-          </span>
-        </div>
-        <span
-          className="font-mono text-sm tracking-wider text-zinc-600"
-          title={salon.price_range}
-        >
-          {dollars}
+      <div className="mt-auto flex flex-wrap items-center gap-2 border-t border-zinc-100 pt-4">
+        <StarRating rating={salon.rating} />
+        <span className="text-sm font-semibold text-zinc-800">
+          {formatRating(salon.rating)}
+        </span>
+        <span className="text-xs text-zinc-400">
+          ({salon.review_count}{" "}
+          {salon.review_count === 1 ? "review" : "reviews"})
         </span>
       </div>
     </Link>
