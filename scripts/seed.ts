@@ -149,7 +149,7 @@ function main(): void {
       phone: "",
       website: null,
       services: extractServicesFromName(name),
-      price_range: "$$",
+      price_range: null,
       rating: record.rating ?? 0,
       review_count: reviewCount(record),
       latitude: coords.lat,

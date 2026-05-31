@@ -1,12 +1,11 @@
-import fs from "fs/promises";
-import path from "path";
+import * as fs from "fs/promises";
+import * as path from "path";
 
 const DATA_DIR = path.resolve(__dirname, "..", "data");
 
 function cleanPhone(phone: any): string | null {
   if (typeof phone !== "string") return null;
-  const cleaned = phone.replace(/[^
-\d]/g, "").trim();
+  const cleaned = phone.replace(/\D/g, "").trim();
   return cleaned === "" ? null : cleaned;
 }
 

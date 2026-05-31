@@ -101,11 +101,6 @@ function extractServicesFromName(name: string): string[] {
   return services.size > 0 ? Array.from(services) : ["Salon"];
 }
 
-function estimatePriceRange(district: string): string {
-  const highDistricts = ["Śródmieście", "Wilanów", "Mokotów"];
-  return highDistricts.includes(district) ? "$$$" : "$$";
-}
-
 function loadJSON<T>(filePath: string): T {
   try {
     const raw = readFileSync(filePath, "utf8");
@@ -143,7 +138,7 @@ function main() {
       phone: record.phone || "",
       website: record.website || null,
       services: JSON.stringify(record.services && record.services.length > 0 ? record.services : ["Salon"]),
-      price_range: record.price_range || "$$",
+      price_range: record.price_range || null,
       rating: record.rating ?? 0.0,
       review_count: record.review_count ?? 0,
       latitude: coords.lat,
@@ -178,7 +173,7 @@ function main() {
       phone: record.phone || "",
       website: record.website || null,
       services: JSON.stringify(services),
-      price_range: record.price_range || estimatePriceRange(district),
+      price_range: record.price_range || null,
       rating: record.rating ?? 0.0,
       review_count: record.review_count ?? 0,
       latitude: coords.lat,
