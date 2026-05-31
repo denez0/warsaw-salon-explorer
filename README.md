@@ -130,15 +130,15 @@ Output fields: `name`, `address`, `district`, `rating`, `review_count`, `phone`,
 
 ## Scripts
 
-| Script                  | Description                                     |
-| ----------------------- | ----------------------------------------------- |
-| `npm run dev`           | Start dev server                                |
-| `npm run build`         | Production build                                |
-| `npm run db:migrate`    | Create schema and indexes                       |
-| `npm run db:seed`       | Insert 110 sample salons                        |
-| `npm run db:setup`      | migrate + seed                                  |
-| `npm run data:clean`    | Clean raw JSON data files and normalize records |
-| `npm run scrape:maps`   | Scrape Google Maps → JSON                       |
+| Script                | Description                                     |
+| --------------------- | ----------------------------------------------- |
+| `npm run dev`         | Start dev server                                |
+| `npm run build`       | Production build                                |
+| `npm run db:migrate`  | Create schema and indexes                       |
+| `npm run db:seed`     | Insert 110 sample salons                        |
+| `npm run db:setup`    | migrate + seed                                  |
+| `npm run data:clean`  | Clean raw JSON data files and normalize records |
+| `npm run scrape:maps` | Scrape Google Maps → JSON                       |
 
 ## Security
 
